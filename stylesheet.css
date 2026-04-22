@@ -74,7 +74,14 @@ a:hover {
   text-decoration: none;
 }
 
-body,
+body {
+    background-image: url('images/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    background-attachment: fixed; 
+}
+
 td,
 th,
 tr,
