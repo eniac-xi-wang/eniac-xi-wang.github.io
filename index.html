@@ -100,30 +100,45 @@
             <div class="item-media">
               <div class="one">
                 <div class="two" id='weaver_project_image'>
-                  <img src='images/weaver.png' width="240" alt="Weaver Project Thumbnail">
+                  <!-- <img src='images/weaver.png' width="240" alt="Weaver Project Thumbnail"> -->
                 </div>
               </div>
             </div>
             <div class="item-content">
-              <a href="https://zhengrongz.github.io/Weaver/">
-                <span class="papertitle">Weaver: End-to-End Agentic System Training for Video Interleaved Reasoning</span>
+              <a href="https://zhengrongz.github.io/Weaver/">·
+                <span class="papertitle">NeSeg: An Agentic System for Video Segmentation with Positive and Negative Hints</span>
               </a>
               <br>
-              <a>Yudi Shi</a>,
-              <a href="https://dszdsz.cn">Shangzhe Di</a>,
-              <a href="https://hurjunhwa.github.io/">Qirui Chen</a>,
               <strong>Qinian Wang</strong>,<br>
-              <a>Xiaolong Jiang</a>,
-              <a>Yao Hu</a>,
-              <a href="https://weidixie.github.io">Weidi Xie</a>
               <br>
-              <em>CVPR</em> 2026 Findings
-              <br>
-              <a href="https://zhengrongz.github.io/Weaver/">project page</a> /
-              <a href="https://arxiv.org/abs/2602.05829">arXiv</a>
+              <a href="https://github.com/eniac-xi-wang/NeSeg">github</a>
               <p></p>
               <p>
-                An end-to-end trainable multimodal reasoning agentic system called Weaver addresses the limitations of text-centric Chain-of-Thought in video reasoning by dynamically invoking tools and leveraging reinforcement learning
+                In prior work, the VLM interacted with SAM using only positive sample points and bounding boxes to perform video object segmentation. In practice, however, when faced with complex fine-grained segmentation, the lack of negative sample hints left the model with no mechanism for output correction. To address this, we build on that framework and leverage reinforcement learning (RL) to introduce negative sample hints, investigating their role in segmentation tasks.             
+              </p>
+            </div>
+          </article>
+        </div>
+                <div class="item-list">
+          <article class="item-row">
+            <div class="item-media">
+              <div class="one">
+                <div class="two" id='weaver_project_image'>
+                  <!-- <img src='images/weaver.png' width="240" alt="Weaver Project Thumbnail"> -->
+                </div>
+              </div>
+            </div>
+            <div class="item-content">
+              <a href="https://zhengrongz.github.io/Weaver/">·
+                <span class="papertitle">StreamTeller: Perception-First Memory with Event-Driven Visual Evidence</span>
+              </a>
+              <br>
+              <strong>Qinian Wang</strong>,<br>
+              <br>
+              <a href="https://github.com/eniac-xi-wang/NeSeg">github</a>
+              <p></p>
+              <p>
+                StreamTeller is a training-free plug-in mechanism that addresses the memory-perception conflict in streaming video understanding. It organizes video streams into event nodes, each containing a structured caption and optional visual evidence. An event-driven gating strategy generates captions only upon semantic drift, and a perception-first retrieval strategy loads historical memory on demand. This design explicitly separates perception from memory, improving long-term recall while minimizing interference with current perception.
               </p>
             </div>
           </article>
